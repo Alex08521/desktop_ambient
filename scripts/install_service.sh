@@ -3,10 +3,10 @@ SERVICE_NAME="desktop_ambient"
 SERVICE_FILE="/etc/systemd/user/${SERVICE_NAME}.service"
 BINARY_PATH="/usr/local/bin/${SERVICE_NAME}"
 
-mkdir -p build
-cd build
-cmake ..
-make -j$(nproc)
+#mkdir -p build
+#cd build
+#cmake ..
+#make -j$(nproc)
 
 sudo cp desktop_ambient ${BINARY_PATH}
 

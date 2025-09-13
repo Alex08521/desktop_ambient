@@ -133,7 +133,7 @@ namespace ambient{
             for (size_t i = 0; i < sample_count * 2; i += 2) {
                 double left = samples[i] / 32768.0;
                 double right = samples[i + 1] / 32768.0;
-                volume += (left * left + right * right) / 2.0;
+                volume += (left * left + right * right) / 4.0;
             }
             
             volume = std::sqrt(volume / sample_count);

@@ -46,9 +46,9 @@ namespace ambient{
         
         static constexpr double VOLUME_THRESHOLD = 0.05;
         static constexpr double SILENCE_THRESHOLD = 0.001;
-        static constexpr int HISTORY_SIZE = 10;
-        static constexpr int CHECK_INTERVAL_MS = 100;
-        static constexpr int RESUME_DELAY_MS = 100;
+        static constexpr int HISTORY_SIZE = 30;
+        static constexpr int CHECK_INTERVAL_MS = 10;
+        static constexpr int RESUME_DELAY_MS = 3000;
 
         std::chrono::steady_clock::time_point last_activity_time;
         bool system_was_active = false;
