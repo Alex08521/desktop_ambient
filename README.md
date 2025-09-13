@@ -3,7 +3,7 @@ To install make this:
 
 ```
 git clone https://github.com/Alex08521/desktop_ambient.git
-cd desctop_ambient
+cd desktop_ambient
 chmod +x scripts/install_service.sh
 ./install_service.sh
 ```
