@@ -8,4 +8,4 @@ chmod +x scripts/install_service.sh
 ./install_service.sh
 ```
 
-If you like my work, you can support me here https://boosty.to/alexpluz
+If you like my work, you can support me here [https://boosty.to/alexpluz](https://boosty.to/alexpluz/donate)
