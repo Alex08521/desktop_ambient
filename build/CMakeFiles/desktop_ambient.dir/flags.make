@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-6 -I/home/alex/Programs/desktop_ambient/src
+CXX_INCLUDES = -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-6 -I/home/alex/Other/Git/desktop_ambient/src
 
 CXX_FLAGS =  -Wall -Wextra -std=gnu++17
 

@@ -44,10 +44,10 @@ namespace ambient{
         std::deque<double> volume_history;
         std::atomic<double> current_system_volume{0.0};
         
-        static constexpr double VOLUME_THRESHOLD = 0.05;
+        static constexpr double VOLUME_THRESHOLD = 0.03;
         static constexpr double SILENCE_THRESHOLD = 0.001;
         static constexpr int HISTORY_SIZE = 30;
-        static constexpr int CHECK_INTERVAL_MS = 10;
+        static constexpr int CHECK_INTERVAL_MS = 5;
         static constexpr int RESUME_DELAY_MS = 3000;
 
         std::chrono::steady_clock::time_point last_activity_time;

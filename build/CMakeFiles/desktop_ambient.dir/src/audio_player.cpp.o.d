@@ -1,7 +1,7 @@
 CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o: \
- /home/alex/Programs/desktop_ambient/src/audio_player.cpp \
+ /home/alex/Other/Git/desktop_ambient/src/audio_player.cpp \
  /usr/include/stdc-predef.h \
- /home/alex/Programs/desktop_ambient/src/audio_player.h \
+ /home/alex/Other/Git/desktop_ambient/src/audio_player.h \
  /usr/include/c++/15/vector /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -150,8 +150,8 @@ CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o: \
  /usr/include/pulse/mainloop-signal.h /usr/include/pulse/util.h \
  /usr/include/pulse/timeval.h /usr/include/pulse/rtclock.h \
  /usr/include/pulse/simple.h \
- /home/alex/Programs/desktop_ambient/src/audio.h \
- /home/alex/Programs/desktop_ambient/src/ogg_decoder.h \
+ /home/alex/Other/Git/desktop_ambient/src/audio.h \
+ /home/alex/Other/Git/desktop_ambient/src/ogg_decoder.h \
  /usr/include/c++/15/string /usr/include/c++/15/bits/char_traits.h \
  /usr/include/c++/15/bits/localefwd.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++locale.h \

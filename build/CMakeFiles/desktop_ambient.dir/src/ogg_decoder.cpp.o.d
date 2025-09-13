@@ -1,7 +1,7 @@
 CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o: \
- /home/alex/Programs/desktop_ambient/src/ogg_decoder.cpp \
+ /home/alex/Other/Git/desktop_ambient/src/ogg_decoder.cpp \
  /usr/include/stdc-predef.h \
- /home/alex/Programs/desktop_ambient/src/ogg_decoder.h \
+ /home/alex/Other/Git/desktop_ambient/src/ogg_decoder.h \
  /usr/include/c++/15/vector /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

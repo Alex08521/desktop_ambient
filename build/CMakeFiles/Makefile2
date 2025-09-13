@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/Programs/desktop_ambient
+CMAKE_SOURCE_DIR = /home/alex/Other/Git/desktop_ambient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/Programs/desktop_ambient/build
+CMAKE_BINARY_DIR = /home/alex/Other/Git/desktop_ambient/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/desktop_ambient.dir/clean
 CMakeFiles/desktop_ambient.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/desktop_ambient.dir/build.make CMakeFiles/desktop_ambient.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/desktop_ambient.dir/build.make CMakeFiles/desktop_ambient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alex/Programs/desktop_ambient/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target desktop_ambient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alex/Other/Git/desktop_ambient/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target desktop_ambient"
 .PHONY : CMakeFiles/desktop_ambient.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/desktop_ambient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/Programs/desktop_ambient/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/Other/Git/desktop_ambient/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/desktop_ambient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/Programs/desktop_ambient/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/Other/Git/desktop_ambient/build/CMakeFiles 0
 .PHONY : CMakeFiles/desktop_ambient.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ desktop_ambient: CMakeFiles/desktop_ambient.dir/rule
 # codegen rule for target.
 CMakeFiles/desktop_ambient.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/desktop_ambient.dir/build.make CMakeFiles/desktop_ambient.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alex/Programs/desktop_ambient/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target desktop_ambient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alex/Other/Git/desktop_ambient/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target desktop_ambient"
 .PHONY : CMakeFiles/desktop_ambient.dir/codegen
 
 # clean rule for target.

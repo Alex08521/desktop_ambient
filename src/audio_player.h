@@ -37,7 +37,7 @@ namespace ambient{
         std::thread playback_thread;
         
         void* pa_stream = nullptr;
-        double current_volume = 1.0;
+        double current_volume = 0.5;
     };
     
 } //ambient

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/Programs/desktop_ambient
+CMAKE_SOURCE_DIR = /home/alex/Other/Git/desktop_ambient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/Programs/desktop_ambient/build
+CMAKE_BINARY_DIR = /home/alex/Other/Git/desktop_ambient/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/desktop_ambient.dir/depend.make
@@ -73,60 +73,60 @@ CMakeFiles/desktop_ambient.dir/codegen:
 .PHONY : CMakeFiles/desktop_ambient.dir/codegen
 
 CMakeFiles/desktop_ambient.dir/src/main.cpp.o: CMakeFiles/desktop_ambient.dir/flags.make
-CMakeFiles/desktop_ambient.dir/src/main.cpp.o: /home/alex/Programs/desktop_ambient/src/main.cpp
+CMakeFiles/desktop_ambient.dir/src/main.cpp.o: /home/alex/Other/Git/desktop_ambient/src/main.cpp
 CMakeFiles/desktop_ambient.dir/src/main.cpp.o: CMakeFiles/desktop_ambient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Programs/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/desktop_ambient.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desktop_ambient.dir/src/main.cpp.o -MF CMakeFiles/desktop_ambient.dir/src/main.cpp.o.d -o CMakeFiles/desktop_ambient.dir/src/main.cpp.o -c /home/alex/Programs/desktop_ambient/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Other/Git/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/desktop_ambient.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desktop_ambient.dir/src/main.cpp.o -MF CMakeFiles/desktop_ambient.dir/src/main.cpp.o.d -o CMakeFiles/desktop_ambient.dir/src/main.cpp.o -c /home/alex/Other/Git/desktop_ambient/src/main.cpp
 
 CMakeFiles/desktop_ambient.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/desktop_ambient.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Programs/desktop_ambient/src/main.cpp > CMakeFiles/desktop_ambient.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Other/Git/desktop_ambient/src/main.cpp > CMakeFiles/desktop_ambient.dir/src/main.cpp.i
 
 CMakeFiles/desktop_ambient.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desktop_ambient.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Programs/desktop_ambient/src/main.cpp -o CMakeFiles/desktop_ambient.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Other/Git/desktop_ambient/src/main.cpp -o CMakeFiles/desktop_ambient.dir/src/main.cpp.s
 
 CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o: CMakeFiles/desktop_ambient.dir/flags.make
-CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o: /home/alex/Programs/desktop_ambient/src/audio_controller.cpp
+CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o: /home/alex/Other/Git/desktop_ambient/src/audio_controller.cpp
 CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o: CMakeFiles/desktop_ambient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Programs/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o -MF CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o.d -o CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o -c /home/alex/Programs/desktop_ambient/src/audio_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Other/Git/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o -MF CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o.d -o CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.o -c /home/alex/Other/Git/desktop_ambient/src/audio_controller.cpp
 
 CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Programs/desktop_ambient/src/audio_controller.cpp > CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Other/Git/desktop_ambient/src/audio_controller.cpp > CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.i
 
 CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Programs/desktop_ambient/src/audio_controller.cpp -o CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Other/Git/desktop_ambient/src/audio_controller.cpp -o CMakeFiles/desktop_ambient.dir/src/audio_controller.cpp.s
 
 CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o: CMakeFiles/desktop_ambient.dir/flags.make
-CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o: /home/alex/Programs/desktop_ambient/src/audio_player.cpp
+CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o: /home/alex/Other/Git/desktop_ambient/src/audio_player.cpp
 CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o: CMakeFiles/desktop_ambient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Programs/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o -MF CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o.d -o CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o -c /home/alex/Programs/desktop_ambient/src/audio_player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Other/Git/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o -MF CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o.d -o CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.o -c /home/alex/Other/Git/desktop_ambient/src/audio_player.cpp
 
 CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Programs/desktop_ambient/src/audio_player.cpp > CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Other/Git/desktop_ambient/src/audio_player.cpp > CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.i
 
 CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Programs/desktop_ambient/src/audio_player.cpp -o CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Other/Git/desktop_ambient/src/audio_player.cpp -o CMakeFiles/desktop_ambient.dir/src/audio_player.cpp.s
 
 CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o: CMakeFiles/desktop_ambient.dir/flags.make
-CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o: /home/alex/Programs/desktop_ambient/src/ogg_decoder.cpp
+CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o: /home/alex/Other/Git/desktop_ambient/src/ogg_decoder.cpp
 CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o: CMakeFiles/desktop_ambient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Programs/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o -MF CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o.d -o CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o -c /home/alex/Programs/desktop_ambient/src/ogg_decoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Other/Git/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o -MF CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o.d -o CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o -c /home/alex/Other/Git/desktop_ambient/src/ogg_decoder.cpp
 
 CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Programs/desktop_ambient/src/ogg_decoder.cpp > CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Other/Git/desktop_ambient/src/ogg_decoder.cpp > CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.i
 
 CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Programs/desktop_ambient/src/ogg_decoder.cpp -o CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Other/Git/desktop_ambient/src/ogg_decoder.cpp -o CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.s
 
 # Object files for target desktop_ambient
 desktop_ambient_OBJECTS = \
@@ -145,7 +145,7 @@ desktop_ambient: CMakeFiles/desktop_ambient.dir/src/ogg_decoder.cpp.o
 desktop_ambient: CMakeFiles/desktop_ambient.dir/build.make
 desktop_ambient: CMakeFiles/desktop_ambient.dir/compiler_depend.ts
 desktop_ambient: CMakeFiles/desktop_ambient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alex/Programs/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable desktop_ambient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alex/Other/Git/desktop_ambient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable desktop_ambient"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/desktop_ambient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +157,6 @@ CMakeFiles/desktop_ambient.dir/clean:
 .PHONY : CMakeFiles/desktop_ambient.dir/clean
 
 CMakeFiles/desktop_ambient.dir/depend:
-	cd /home/alex/Programs/desktop_ambient/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alex/Programs/desktop_ambient /home/alex/Programs/desktop_ambient /home/alex/Programs/desktop_ambient/build /home/alex/Programs/desktop_ambient/build /home/alex/Programs/desktop_ambient/build/CMakeFiles/desktop_ambient.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alex/Other/Git/desktop_ambient/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alex/Other/Git/desktop_ambient /home/alex/Other/Git/desktop_ambient /home/alex/Other/Git/desktop_ambient/build /home/alex/Other/Git/desktop_ambient/build /home/alex/Other/Git/desktop_ambient/build/CMakeFiles/desktop_ambient.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/desktop_ambient.dir/depend
 

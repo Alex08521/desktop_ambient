@@ -1,8 +1,8 @@
 CMakeFiles/desktop_ambient.dir/src/main.cpp.o: \
- /home/alex/Programs/desktop_ambient/src/main.cpp \
+ /home/alex/Other/Git/desktop_ambient/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/alex/Programs/desktop_ambient/src/audio_controller.h \
- /home/alex/Programs/desktop_ambient/src/audio_player.h \
+ /home/alex/Other/Git/desktop_ambient/src/audio_controller.h \
+ /home/alex/Other/Git/desktop_ambient/src/audio_player.h \
  /usr/include/c++/15/vector /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

@@ -222,8 +222,8 @@ namespace ambient{
         } else if (system_was_active) {
             auto now = std::chrono::steady_clock::now();
             auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(now - last_activity_time).count();
-            
-            if (elapsed >= RESUME_DELAY_MS) {
+
+            if (elapsed >= RESUME_DELAY_MS && !is_active) {
                 if (!player.isPlaying()) {
                     std::cout << "System audio inactive for " << elapsed << "ms (" << system_volume << "), resuming playback" << std::endl;
                     player.play();
@@ -231,7 +231,7 @@ namespace ambient{
                 system_was_active = false;
             }
         } else {
-            if (!player.isPlaying()) {
+            if (!player.isPlaying() && !system_was_active) {
                 std::cout << "System audio inactive (" << system_volume << "), resuming playback" << std::endl;
                 player.play();
             }

@@ -4,7 +4,7 @@ SERVICE_FILE="/etc/systemd/user/${SERVICE_NAME}.service"
 BINARY_PATH="/usr/local/bin/${SERVICE_NAME}"
 
 #mkdir -p build
-#cd build
+cd build
 #cmake ..
 #make -j$(nproc)
 
@@ -30,4 +30,4 @@ systemctl --user daemon-reload
 systemctl --user enable ${SERVICE_NAME}
 systemctl --user start ${SERVICE_NAME}
 
-echo "Service installed and started. Use 'journalctl --user -u sound_service -f' to view logs."
+echo "Service installed and started. Use 'journalctl --user -u desktop_ambient -f' to view logs."
