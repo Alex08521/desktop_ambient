@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_desktop_ambient_FILE /home/alex/Other/Git/desktop_ambient/build/Desktop_Qt_6_9_0-Debug/desktop_ambient)
+set(__QT_DEPLOY_TARGET_desktop_ambient_TYPE EXECUTABLE)

@@ -22,14 +22,14 @@ namespace ambient{
     bool AudioPlayer::init() {
         std::cout << "Player start init\n";
 
-        if (!validateOggData(audio_data, audio_size)) {
+        if (!validateOggData(audio_data.data(), audio_size)) {
             std::cerr << "Invalid OGG data" << std::endl;
             return false;
         }
 
         OggDecoder decoder;
         std::cout << "\tPlayer starting decoding audio\n";
-        if (!decoder.decode(audio_data, audio_size)) {
+        if (!decoder.decode(audio_data.data(), audio_size)) {
             std::cerr << "Failed to decode Ogg Vorbis data" << std::endl;
             return false;
         }

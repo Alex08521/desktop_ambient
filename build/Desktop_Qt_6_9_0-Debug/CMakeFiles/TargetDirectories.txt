@@ -1,0 +1,5 @@
+/home/alex/Other/Git/desktop_ambient/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/desktop_ambient.dir
+/home/alex/Other/Git/desktop_ambient/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/edit_cache.dir
+/home/alex/Other/Git/desktop_ambient/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/rebuild_cache.dir
+/home/alex/Other/Git/desktop_ambient/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/desktop_ambient_autogen_timestamp_deps.dir
+/home/alex/Other/Git/desktop_ambient/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/desktop_ambient_autogen.dir
